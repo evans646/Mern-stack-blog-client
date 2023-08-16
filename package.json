@@ -15,11 +15,10 @@
     "react-router-dom": "^6.4.0",
     "react-scripts": "2.1.8",
     "react-spinners": "^0.13.4",
-    "reading-time": "^1.5.0",
-    "whatwg-fetch": "^3.0.0"
+    "reading-time": "^1.5.0"
   },
   "scripts": {
-    "dev": "react-scripts --openssl-legacy-provider  start",
+    "dev": "react-scripts --openssl-legacy-provider start",
     "start": "serve build  -s -n -L -p $PORT",
     "build": "react-scripts  --openssl-legacy-provider build"
   },
