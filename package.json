@@ -19,7 +19,7 @@
     "whatwg-fetch": "^3.0.0"
   },
   "scripts": {
-    "dev": "react-scripts start",
+    "dev": "react-scripts --openssl-legacy-provider start",
     "start": "serve build -s -n -L -p $PORT",
     "build": "react-scripts build"
   },
